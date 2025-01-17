@@ -1,0 +1,225 @@
+ #landing-page
+{
+	font-family:  Georgia, serif;
+	color:white;
+    margin: 0;
+    padding: 0;
+
+}
+#video
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+#title1
+{
+	text-decoration: underline;
+    text-decoration-style: dotted;
+	text-align:center;
+}
+#myimage
+{
+	float:left;
+	margin-right:20px;
+	width:300px;
+	height:300px;
+}
+#name
+{
+	float:left;
+	width:50%;
+	font-family: Georgia, serif;
+	color: #9370DB;
+	text-align: center;
+}
+#college
+{
+	color:white;
+}
+
+#basic-info
+{
+	
+	clear:left;
+	padding:1px;
+	border: 3px solid;
+	width:30%;
+	font-family: Georgia, serif;
+	color: #9370DB;
+}
+#college-info
+{
+	clear:left;
+	border: 3px solid;
+	font-family: Georgia, serif;
+	color: #9370DB;
+	text-align: center;
+}
+#links
+{
+	clear:left;
+	font-family: Georgia, serif;
+	color: #9370DB;
+}
+#info a
+{
+	font-family: Georgia, serif;
+	color: white;
+}
+#details
+{
+	border: 1px solid #9370DB;
+            padding: 10px;
+            margin: 10px 0;
+			color: #9370DB; 
+}
+#nameresume
+{
+	font-family: Georgia, serif;
+	color: #9370DB;
+}
+#mailinfo, #port
+{
+    background-color: #9370DB;
+    color: white;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: underline;
+    transition: background-color 0.3s;
+}
+#mailinfo a, #port a 
+{
+    color: white; 
+}
+#contactinfo
+{
+	background-color:#9370DB;  
+	color: white;
+	font-size: 16px;
+	padding: 10px 20px; 
+	border-radius: 5px; 
+    cursor: pointer;
+    text-decoration: underline;
+    transition: background-color 0.3s;
+}
+#carobj
+{
+	color: white;
+	text-align:center;
+	border:2px dotted;
+	padding: 10px 20px; 
+	border-radius: 5px;
+}
+#obj
+{
+	font-family: Georgia, serif;
+	color: #9370DB;
+	font-size:15px;
+	text-align:center;
+}
+#skills, #skills2, #edu, #work
+{
+	font-family: Georgia, serif;
+	color: #9370DB;
+	font-size:15px;
+	width: 24%; 
+    float: left;
+	border:3px solid;
+	border-radius:3px;
+	margin-top:18px;
+	margin-right:7px;
+	transition: box-shadow 0.3s ease;
+	 box-shadow: 0 0 10px 5px #3498db;
+}
+#skills:hover  
+{
+	 background-color:#f0ad4e;
+	 transform: scale(1.1);
+}
+#skills2:hover
+{
+	background-color:#f0ad4e;
+	 transform: scale(1.1);
+}
+#edu:hover
+{
+	background-color:#f0ad4e;
+	 transform: scale(1.1);
+}
+#work:hover
+{
+	background-color:#f0ad4e;
+	 transform: scale(1.1);
+}
+#sk
+{
+	color:white;
+	text-decoration: underline;
+}
+#edu a
+{
+	color:white;
+}
+#foot
+{
+	position:fixed;
+	bottom:0;
+	left:0;
+	font-size:12px;
+}
+input[type="text"],
+input[type="email"]
+{
+    width: 30%; 
+}
+#cen-box
+{
+	text-align:center; 
+    border: 3px solid #9370DB;
+	border-radius:5px;
+	box-shadow:0 0 10px 5px white;;
+}
+label[for="firstname"] , label[for="email"], label[for="lastname"], label[for="message"]  
+{
+     color: #9370DB;
+	 margin-left:10px;	
+	 display:block;
+	 font-size:30px;
+	 font-family:Georgia, serif;
+	 
+	 
+} 
+#sub
+{
+	color: #9370DB;
+	font-family:Georgia, serif;
+	font-size:30px; 
+}
+#goback
+{
+	text-decoration:underline;
+	font-size:30px;
+	 font-family:Georgia, serif;
+	 margin-right:20px;
+	 text-align:center;
+	
+}
+#refer
+{
+	background-color: #9370DB;
+    color: white;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: underline;
+   margin-top:50px;
+   text-align:center;	 
+}
+
